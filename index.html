@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class ="site-header">
+        <h1> Rock Paper Scissors</h1>
+    </header>
+
+    <main class="container">
+         <div class ="container">
+            <p class="rules">Choose Rock, Paper, or Scissors.<br> Click the image or press R, P, or S.<br> Remember:<br> Rock beats scissors.<br> Scissors beats paper. <br> Paper beats rock.<br> Choose wisely and have fun.</p>   
+        </div>
+        <section class="game-container">
+            <figure id="paper">
+                <img src="paper.png"
+                class="photo"
+                alt="paper">
+            </figure>
+            <figure id ="rock">
+                <img src="rock.png"
+                class="photo"
+                alt="rock">
+            </figure>
+            <figure id="scissors">
+                    <img src="scissors.png"
+                    class="photo"
+                    alt="scissors">
+            </figure>
+        </section>
+
+        <div id="results"> 
+           <p id="computer_selection"> Computer's Choice:  </p>
+           <p id="winner"> Results:  </p> 
+        </div>
+
+        <div class="button"> 
+            <button type="button" class="btn" >Play Again</button>
+        </div>
+    </main>
+    <footer>
+        <p class="" > &copy; 2026 Games Inc | <a href="mailto:gamesinc@example.com"> gamesinc@example.com</a></p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
